@@ -1,0 +1,44 @@
+To solve this problem, you can follow these steps:
+
+**Step 1: Understand the problem**
+
+The problem describes a continuous uniform distribution over the interval \(125 < x < 375\). For a continuous uniform distribution, the probability density function (PDF) is constant within the given interval.
+
+**Step 2: Find the parameters of the distribution**
+
+The uniform distribution is defined by two parameters: \(a\) and \(b\), where \(a\) is the lower bound and \(b\) is the upper bound. In this case, \(a = 125\) and \(b = 375\).
+
+**Step 3: Calculate the probability for different scenarios**
+
+i. **Proportion of tests requiring more than 175:**
+   The probability is given by the area under the probability density function (PDF) curve from 175 to 375.
+
+   \[ P(X > 175) = \int_{175}^{375} f(x) \,dx \]
+
+   Where \( f(x) \) is the PDF of the uniform distribution.
+
+ii. **Proportion of tests less than 300:**
+    The probability is given by the area under the PDF curve from 125 to 300.
+
+    \[ P(X < 300) = \int_{125}^{300} f(x) \,dx \]
+
+iii. **Proportion of tests more than 150 and less than 250:**
+     The probability is given by the area under the PDF curve from 150 to 250.
+
+     \[ P(150 < X < 250) = \int_{150}^{250} f(x) \,dx \]
+
+**Step 4: Calculate the mean and variance**
+
+The mean (\(\mu\)) of a continuous uniform distribution is given by the average of the lower and upper bounds:
+
+\[ \mu = \frac{a + b}{2} \]
+
+The variance (\(\sigma^2\)) is given by:
+
+\[ \sigma^2 = \frac{(b - a)^2}{12} \]
+
+**Step 5: Perform the calculations**
+
+Use the formulas mentioned in step 3 and step 4 to calculate the probabilities, mean, and variance.
+
+Note: The specific formula for the probability density function \(f(x)\) for a continuous uniform distribution is \(f(x) = \frac{1}{b-a}\) for \(a < x < b\), and 0 otherwise.
